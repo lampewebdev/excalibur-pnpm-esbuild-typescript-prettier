@@ -1,6 +1,5 @@
-import { Actor, vec, Vector, Resolution, Color } from "excalibur";
-import { innSprite } from "../assets";
-import engine from "../engine";
+import { Actor, vec, Vector, Resolution } from "excalibur";
+import { staticResources } from "../resources";
 
 export default class Inn extends Actor {
   constructor() {
@@ -14,6 +13,6 @@ export default class Inn extends Actor {
   }
 
   onInitialize() {
-    const i = this.graphics.show(innSprite);
+    this.graphics.show(staticResources.innRes);
   }
 }

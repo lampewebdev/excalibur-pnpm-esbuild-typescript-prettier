@@ -1,6 +1,6 @@
 import engine from "./engine";
 import SceneOne from "./scenes/SceneOne";
-import "./assets";
+import "./resources";
 
 engine.add("sceneOne", new SceneOne());
 engine.goToScene("sceneOne");

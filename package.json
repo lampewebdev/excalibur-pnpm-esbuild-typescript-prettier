@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "esbuild src/main.ts --sourcemap --bundle --servedir=. --outdir=./js",
+    "dev": "esbuild src/main.ts --sourcemap --loader:.png=dataurl --bundle --servedir=. --outdir=./js",
     "format": "prettier --write ."
   },
   "keywords": [],

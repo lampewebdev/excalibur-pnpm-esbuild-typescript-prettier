@@ -1,0 +1,19 @@
+{
+  "name": "excalibur-pokevi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "esbuild src/main.ts --sourcemap --bundle --servedir=. --outdir=./js",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.2",
+    "excalibur": "^0.25.1",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.2"
+  }
+}
